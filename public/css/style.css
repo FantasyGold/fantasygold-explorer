@@ -604,7 +604,7 @@ b, strong {
   color: #2ed0a0; }
 
 .special2 {
-  color: #264c63; }
+  color: #e0c469; }
 
 .additional {
   opacity: .8; }
@@ -758,7 +758,7 @@ b, strong {
   font-weight: 500; }
 
 .mark {
-  background: rgba(44, 130, 174, 0.8);
+  background: rgba(224, 196, 105, 0.8);
   color: #232328;
   padding: 1px 2px;
   -webkit-transition: all 0.2s ease;
@@ -766,9 +766,9 @@ b, strong {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease; }
   .mark:hover {
-    background: #2c82ae; }
+    background: #e0c469; }
   .mark.disabled {
-    background: rgba(44, 130, 174, 0.5);
+    background: rgba(224, 196, 105, 0.5);
     cursor: default; }
 
 .mark-bd {
@@ -793,7 +793,7 @@ b, strong {
   .section__heading {
     margin-bottom: 30px; }
     .section__heading.bdb {
-      border-bottom: 1px dashed #295f7c;
+      border-bottom: 1px dashed #e0c469;
       padding-bottom: 17px;
       margin-bottom: 13px; }
   .section__title {
@@ -1122,7 +1122,7 @@ b, strong {
   background: transparent; }
 
 .jspTrack {
-  background: #26475b; }
+  background: #e0c469; }
 
 .jspDrag {
   background: #e0c469;
@@ -1415,7 +1415,7 @@ x-axis
 }
 
 .scrollbar-outer > .scroll-element {
-  background-color: #26475b;
+  background-color: #e0c469;
 }
 
 .scrollbar-outer > .scroll-element .scroll-element_outer {
@@ -1449,7 +1449,7 @@ x-axis
 }
 
 .scrollbar-outer > .scroll-element .scroll-element_track {
-  background-color: #26475b;
+  background-color: #e0c469;
 }
 
 .scrollbar-outer > .scroll-element.scroll-y .scroll-bar {
@@ -3614,7 +3614,7 @@ corresponds to the arrow we want to display */
   .storage .table {
     padding: 0 0 14px;
     margin-bottom: 45px;
-    border-bottom: 1px dashed #253b4a; }
+    border-bottom: 1px dashed #e0c469; }
   .storage .tr:hover {
     background: transparent; }
   .storage .trMore {
@@ -3758,7 +3758,7 @@ corresponds to the arrow we want to display */
     display: none;
     overflow: hidden; }
   .tr-head {
-    border-bottom: 1px dashed #253b4a;
+    border-bottom: 1px dashed #e0c469;
     padding: 0 0 15px !important;
     margin-bottom: 14px !important; }
     .tr-head:hover {
@@ -4983,7 +4983,7 @@ corresponds to the arrow we want to display */
       position: absolute;
       content: '';
       bottom: 0;
-      border-bottom: 1px dashed #295f7c;
+      border-bottom: 1px dashed #e0c469;
       height: 1px;
       left: 50%;
       right: 50%;
@@ -4991,7 +4991,7 @@ corresponds to the arrow we want to display */
 
 .transactions__head {
   overflow: hidden;
-  border-bottom: 1px dashed #295f7c;
+  border-bottom: 1px dashed #e0c469;
   padding: 10px 0;
   margin-bottom: 13px; }
   .transactions__headLeft {
@@ -5229,12 +5229,12 @@ corresponds to the arrow we want to display */
   .tockenSummary .col:nth-child(2) {
     padding-left: 15px; }
   .tockenSummary .list__item {
-    border-bottom: 1px dashed #253b4a;
+    border-bottom: 1px dashed #e0c469;
     margin-bottom: 0;
     padding: 12px 10px;
     font-size: 13px; }
     .tockenSummary .list__item:first-child {
-      border-top: 1px dashed #253b4a; }
+      border-top: 1px dashed #e0c469; }
     .tockenSummary .list__item .iconArrow {
       font-size: 11px;
       padding-right: 3px; }
@@ -5331,7 +5331,7 @@ corresponds to the arrow we want to display */
   margin-bottom: 25px;
   padding-left: 10px; }
   .section-tockenTransfers .tr {
-    border-bottom: 1px dashed #253b4a; }
+    border-bottom: 1px dashed #e0c469; }
   .section-tockenTransfers .tr-head {
     padding: 0 0 10px !important;
     margin-bottom: 0 !important; }
@@ -5374,7 +5374,7 @@ corresponds to the arrow we want to display */
   margin-bottom: 25px;
   padding-left: 10px; }
   .section-tockenHolders .tr {
-    border-bottom: 1px dashed #253b4a; }
+    border-bottom: 1px dashed #e0c469; }
   .section-tockenHolders .tr-head {
     padding: 0 0 10px !important;
     margin-bottom: 0 !important; }
@@ -5428,13 +5428,13 @@ corresponds to the arrow we want to display */
     text-transform: uppercase;
     color: #e0c469;
     padding: 66px 30px 22px;
-    border-bottom: 1px dashed #253b4a;
+    border-bottom: 1px dashed #e0c469;
     margin: auto; }
   .section-tockenPie .text {
     font-size: 13px;
     line-height: 21px;
     padding: 14px 0 18px;
-    border-bottom: 1px dashed #253b4a;
+    border-bottom: 1px dashed #e0c469;
     color: rgba(46, 154, 208, 0.4); }
     .section-tockenPie .text:first-child {
       padding-top: 38px; }
@@ -5450,7 +5450,7 @@ corresponds to the arrow we want to display */
   .section-tockenReadSmartContracts .list__item {
     font-size: 0;
     line-height: 40px;
-    border-bottom: 1px dashed #253b4a;
+    border-bottom: 1px dashed #e0c469;
     margin-bottom: 0;
     padding: 5px 5px; }
     .section-tockenReadSmartContracts .list__item > * {

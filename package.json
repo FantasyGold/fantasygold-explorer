@@ -1,14 +1,51 @@
 {
-  "name": "fantasygold-explorer",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the fantasygold network and build your own services with it.",
-  "version": "0.11.4",
-  "repository": "git@github.com:fantasygold/fantasygold-explorer.git",
-  "contributors": [],
+  "_args": [
+    [
+      "git+https://github.com/fantasygold/fantasygold-explorer.git#master",
+      "/home/dev/mynode"
+    ]
+  ],
+  "_from": "git+https://github.com/fantasygold/fantasygold-explorer.git#master",
+  "_id": "fantasygold-explorer@git+https://github.com/fantasygold/fantasygold-explorer.git#17268b6024ef3da7e3744ac2fe783acd123332f8",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/fantasygold-explorer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/fantasygold/fantasygold-explorer.git#master",
+    "rawSpec": "git+https://github.com/fantasygold/fantasygold-explorer.git#master",
+    "saveSpec": "git+https://github.com/fantasygold/fantasygold-explorer.git#master",
+    "fetchSpec": "https://github.com/fantasygold/fantasygold-explorer.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/fantasygold/fantasygold-explorer.git#17268b6024ef3da7e3744ac2fe783acd123332f8",
+  "_spec": "git+https://github.com/fantasygold/fantasygold-explorer.git#master",
+  "_where": "/home/dev/mynode",
   "bugs": {
     "url": "https://github.com/fantasygold/fantasygold-explorer/issues"
   },
+  "contributors": [],
+  "dependencies": {},
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the fantasygold network and build your own services with it.",
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-angular-gettext": "^0.2.15",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-macreload": "*",
+    "grunt-markdown": "~0.5.0"
+  },
+  "fantasygoldcoreNode": "fantasygoldcore-node",
   "homepage": "https://github.com/fantasygold/fantasygold-explorer",
-  "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
@@ -17,20 +54,11 @@
     "fantasygoldcore",
     "front-end"
   ],
-  "fantasygoldcoreNode": "fantasygoldcore-node",
-  "dependencies": {
+  "license": "MIT",
+  "name": "fantasygold-explorer",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fantasygold/fantasygold-explorer.git"
   },
-  "devDependencies": {
-    "bower": "~1.2.8",
-    "grunt": "~0.4.2",
-    "grunt-cli": "~0.1.11",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.3.2",
-    "grunt-contrib-watch": "*",
-    "grunt-macreload": "*",
-    "grunt-css": "~0.5.4",
-    "grunt-markdown": "~0.5.0",
-    "grunt-angular-gettext": "^0.2.15"
-  }
+  "version": "0.11.4"
 }
