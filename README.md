@@ -46,8 +46,8 @@ A FGC blockchain explorer web application service for [FantasyGoldcore Node](htt
       "servicesConfig": {
         "fantasygold-explorer": {
           "apiPrefix": "fantasygold-insight-api",
-          "routePrefix": "fantasygold-explorer",
-          "nodemapLink": "https://fantasygold.io/en/nodemap"
+          "routePrefix": "fantasygold-explorer"
+          
        },
        "fantasygold-insight-api": {
          "routePrefix": "fantasygold-insight-api",
@@ -74,16 +74,22 @@ A FGC blockchain explorer web application service for [FantasyGoldcore Node](htt
         },
         "fantasygoldd": {
           "spawn": {
-            "datadir": "/home/user/.fantasygold",
-           "exec": "/home/user/fantasygold-bitcore/src/fantasygoldd"
+            "datadir": "/home/user/mynode/data",
+           "exec": "/home/user//node_modules/fantasygoldcore-node/bin/fantasygoldd"
           }
         }
       }
     }
 
     ```  
-6. Edit fantasygold.conf  
+6. Edit fantasygold.conf 
 
+    ```
+    cd /mynode/data
+
+    nano fantasygold.conf 
+    ```
+    Paste in the following 
     ```
     server=1
     whitelist=127.0.0.1
@@ -96,14 +102,32 @@ A FGC blockchain explorer web application service for [FantasyGoldcore Node](htt
     rpcallowip=127.0.0.1
     rpcuser=user
     rpcpassword=password
-    rpcport=18332
+    rpcport=57810
     reindex=1
     gen=0
     addrindex=1
     logevents=1
     ```  
-7. Run Node  
 
+7. Navigate to the scripts directory:
+    ```
+    
+    cd /home/user/mynode/node_modules/fantasygoldcore-node/scripts/
+    ```
+    Run the download script to download fantasygoldd
+
+    ```
+    ./download
+    ```
+
+
+7. Run Node 
+
+  Navigate to the execution directory 
+    ```
+    cd /home/user/mynode/node_modules/fantasygoldcore-node/bin
+    ```
+  Then run the node with:
     ```
     $(npm bin)/fantasygoldcore-node start
     ```  
