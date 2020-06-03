@@ -31,7 +31,8 @@ A FGC blockchain explorer web application service for [FantasyGoldcore Node](htt
     $(npm bin)/fantasygoldcore-node install https://github.com/fantasygold/insight-api.git#master
     $(npm bin)/fantasygoldcore-node install https://github.com/fantasygold/fantasygold-explorer.git#master
     ```  
-5. Edit fantasygoldcore-node.json  
+5. Edit fantasygoldcore-node.json
+    ### Note If you do not want or need to run explorer front end, simply remove in “services” the text “fantasygold-explorer”, and then we have only the API and WEB service running.  
 
     ```json
     {
