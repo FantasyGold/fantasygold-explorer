@@ -75,7 +75,7 @@ A FGC blockchain explorer web application service for [FantasyGoldcore Node](htt
         "fantasygoldd": {
           "spawn": {
             "datadir": "/home/user/mynode/data",
-           "exec": "/home/user//node_modules/fantasygoldcore-node/bin/fantasygoldd"
+           "exec": "/home/user/mynode/node_modules/fantasygoldcore-node/bin/fantasygoldd"
           }
         }
       }
