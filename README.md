@@ -8,10 +8,10 @@ A FGC blockchain explorer web application service for [FantasyGoldcore Node](htt
 1. Install nvm https://github.com/creationix/nvm  
 
     ```bash
-    nvm i v6
-    nvm use v6
+    nvm i v10
+    nvm use v10
     ```  
-2. Install mongo https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/  
+2. Install mongo https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/  and create a database named `fantasygold-api-livenet` or something that will match the db section of `fantasygoldcore-node.json` in Step 5  
 
 3. Install fantasygold-bitcore https://github.com/fantasygold/fantasygold-bitcore - with ZMQ ! 
 
@@ -82,7 +82,7 @@ A FGC blockchain explorer web application service for [FantasyGoldcore Node](htt
     }
 
     ```  
-6. Edit fantasygold.conf 
+6. Edit fantasygold.conf & add rpc creds. 
 
     ```
     cd /mynode/data
@@ -108,6 +108,19 @@ A FGC blockchain explorer web application service for [FantasyGoldcore Node](htt
     addrindex=1
     logevents=1
     ```  
+  Navigate to the directory
+
+`/home/user/mynode/node_modules/fantasygoldd-rpc/lib/` 
+
+Edit the index.js with the same rpc creds you used in `fantasygold.com` above, this includes the rpc port, rpc user, rpc password.
+
+Save the file, now let’s go to another directory to make this change.
+
+Browse to the directory:
+
+`/home/user/mynode/node_modules/fantasygoldcore-node/lib/services/`
+
+Edit the fantasygoldd.js file and edit by placing THE SAME credentials placed in the previous file, save the file and close it.
 
 7. Navigate to the scripts directory:
     ```
@@ -129,7 +142,7 @@ A FGC blockchain explorer web application service for [FantasyGoldcore Node](htt
     ```
   Then run the node with:
     ```
-    $(npm bin)/fantasygoldcore-node start
+    ./fantasygoldcore-node start
     ```  
 
 8. Open a web browser to `http://localhost:3001/fantasygold-explorer` or `http://localhost:3001/fantasygold-insight-api`  
