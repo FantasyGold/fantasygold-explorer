@@ -601,10 +601,10 @@ b, strong {
   font-size: 21px; }
 
 .special {
-  color: #2ed0a0; }
+  color: #2e54d0; }
 
 .special2 {
-  color: #e0c469; }
+  color: #8a6a00; }
 
 .additional {
   opacity: .8; }
@@ -758,7 +758,7 @@ b, strong {
   font-weight: 500; }
 
 .mark {
-  background: rgba(224, 196, 105, 0.8);
+  background: rgba(248, 204, 56, 0.8);
   color: #232328;
   padding: 1px 2px;
   -webkit-transition: all 0.2s ease;
@@ -768,7 +768,7 @@ b, strong {
   .mark:hover {
     background: #e0c469; }
   .mark.disabled {
-    background: rgba(224, 196, 105, 0.5);
+    background: rgba(248, 204, 56, 0.5);
     cursor: default; }
 
 .mark-bd {
@@ -5085,7 +5085,7 @@ corresponds to the arrow we want to display */
     font-size: 13px;
     padding-top: 4px; }
   .transactions__row .special {
-    color: #2ed0a0; }
+    color: #2e54d0; }
   .transactions__row .help {
     padding-left: 20px;
     font-size: 13px; }
@@ -5368,7 +5368,7 @@ corresponds to the arrow we want to display */
     top: 50%;
     margin-top: -4px;
     font-size: 8px;
-    color: #2ed0a0; }
+    color: #2e54d0; }
 
 .section-tockenHolders {
   margin-bottom: 25px;
@@ -5527,7 +5527,7 @@ corresponds to the arrow we want to display */
       line-height: 1.5;
       margin-bottom: 10px; }
   .section-tockenReadSmartContracts .arrows {
-    color: #2ed0a0;
+    color: #2e54d0;
     font-size: 9px; }
 
 .section-tokenTransfers {
@@ -5568,7 +5568,7 @@ corresponds to the arrow we want to display */
     .section-tokenTransfers .status.bg-orange {
       background: #de5543; }
     .section-tokenTransfers .status.bg-green {
-      background: #2ed0a0; }
+      background: #2e54d0; }
   .section-tokenTransfers .link {
     display: block; }
 
